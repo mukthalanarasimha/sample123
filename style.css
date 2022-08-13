@@ -1,0 +1,231 @@
+.main_container{
+    background-image:linear-gradient( to right,blue,orange);
+    height:1000px;
+    width:100%;
+    text-align: center;
+    padding:50px;
+    
+}
+.main_design_container{
+    text-align: center;
+}
+.design_heading{
+    font-family:"Monospace";
+    color:white;
+    font-weight:bold;
+    font-size:75px;
+}
+.design_paragragh{
+    font-family:"roboto";
+    color:white;
+    margin-bottom: 30px;
+}
+.button_about_us{
+    height:50px;
+    width:200px;
+    background-color:white;
+    border-radius:20px;
+    border-color:white;
+    margin-left:20px;
+    color:black;
+    font-family:monospace;
+    font-weight: bold;
+    transition: all 300ms ease-out;
+}
+.button_about_us:hover{
+    transition: all 300ms ease-out;
+    width: 250px;
+    height:75px;
+}
+.button_ourWorks_us{
+    height:50px;
+    width:200px;
+    background-color:transparent;
+    border-radius:20px;
+    border-color:white;
+    margin-left:20px;
+    color:white;
+    font-family:monospace;
+    font-weight: bold;
+    transition: all 300ms ease-out;
+
+}
+
+.button_ourWorks_us:hover{
+    transition: all 300ms ease-in;
+    width:250px;
+    height: 75px;
+}
+
+
+
+
+
+
+
+
+
+.button_container{
+    margin-bottom: 40px;
+}
+
+.icon:hover{
+    transition: all 300ms ease-out;
+    transform: scale(1.02);
+    opacity: 1;
+}
+.icon1{
+    height:75px;
+    width: 75px;
+    color:blue;
+    margin-bottom:5px;
+}
+.icon2{
+    height:75px;
+    width: 75px;
+    color:red;
+    margin-bottom:5px;
+}
+.icon3{
+    height:75px;
+    width: 75px;
+    color:green;
+    margin-bottom:5px;
+}
+.icon4{
+    height:75px;
+    width: 75px;
+    color:yellow;
+    margin-bottom:5px;
+}
+.boostrap_icon_name{
+    font-family:monospace;
+    font-size:25px;
+    font-weight: bold;
+}
+.bostrap_icons{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width:600px){
+    .design_heading{
+        font-size: 40px;
+    }
+    .design_paragragh{
+        font-size:15px;
+    }
+    .button_about_us{
+        margin-bottom: 10px;
+    }
+    .boostrap_icon_name{
+        font-size: 20px;
+    }
+    .button_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main_container{
+        height:100%;
+    }
+
+}
+@media screen and (min-width:768px){
+    .icon_container{
+        width:200px;
+    }
+    .main_container{
+        height:1200px;
+    }
+
+@media screen and(max-width:992px){
+    .main_container{
+        height:100%;
+    }
+
+}    
+    
+    
+}
+@media screen and(min-width:1200px){
+    .main_container{
+        height:100%;
+    }
+}
+
+
+.icon_container{
+    background-color: white;
+    height:150px;
+    width:300px;
+    border-radius:20px;
+    margin:20px;
+    padding:20px;
+    opacity: .70;
+    transition: all 300ms ease-in-out;
+}
+
+.icon_container:hover{
+    transition:all 300ms ease-in;
+    transform: scale(1.02);
+    opacity:1;
+    border-radius: 30px;
+    width:300px;
+    height:200px;
+
+}
+
+.first_name_and_last_name{
+    font-family: "roboto";
+    font-weight:"bold";
+}
+.first_second_container{
+    margin-bottom: 5px;
+}
+
+
+.selected{
+    width:225px;
+}
+.selected_container{
+    margin-bottom: 20px;
+}
+
+.gender_container{
+    float:left;
+}
+.Bostrap_button{
+    background-color: transparent;
+    float: right;
+    width:200px;
+    height:50px;
+    border-radius: 20px;
+    align-items: center;
+    transition: all 300ms ease-out;
+}
+.Bostrap_button:hover{
+    transition: all 300ms ease-in;
+    width:250px;
+    height:75px;
+
+}
+
+
+
+
+
+
+.star{
+    color:red;
+}
+.modalHeight{
+    overflow-y:visible;
+    max-height: 700px;
+}
+
+
+
+
+
